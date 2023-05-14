@@ -64,7 +64,7 @@ public class Main {
     public static void task5() {
         System.out.println("Задача 5");
         int monthNumber = 5;
-        System.out.println("Выбранный месяц " + monthNumber);
+        System.out.println("Выбранный месяц " + monthNumber + ".");
         switch (monthNumber) {
             case 1:
             case 2:
@@ -88,8 +88,6 @@ public class Main {
                 break;
             default:
                 System.out.println("Такого месяца нет");
-
-
         }
     }
 }
